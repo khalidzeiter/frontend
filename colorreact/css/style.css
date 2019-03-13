@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=BioRhyme|Indie+Flower");
+* {
+    text-align: center;
+    font-family: "BioRhyme", sans-serif;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-family: "Indie Flower", sans-serif;
+    font-size: 50px;
+    margin-bottom: -2%;
+}
+
+#time {
+    float: left;
+    margin-bottom: 10px
+}
+
+.game {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.color-block {
+    margin: 0.1%;
+    width: 10%;
+    height: 10%;
+    float: left
+}
+
+.color-diff {
+    margin: 0.1%;
+    width: 10%;
+    height: 10%;
+    float: left
+}
+
+.clear {
+    clear: both
+}

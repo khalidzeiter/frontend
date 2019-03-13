@@ -1,0 +1,342 @@
+/*
+Theme: Blueasy – Portfolio Template
+Designer: Djordje Vanjek 
+          (https://dribbble.com/vanjek)
+Coder: Khalid Omar
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body{
+	font-family: "Open Sans", sans-serif;
+	background: #FAFAFA
+}
+
+.aboutme .container,
+.contactme .container,
+.navbar,
+.portfolio .container,
+.relax .container {
+	overflow: hidden
+}
+
+.clear {
+	clear: both
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto
+}
+
+q {
+	text-transform: uppercase;
+}
+
+.header {
+	background: url(../imgs/background.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+
+.logo h1 {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	float: left;
+	padding: 10px;
+	margin: 5px
+}
+
+.logo span {
+	color: #4BCAFF
+}
+
+.navbar {
+	background: rgba(81, 95, 103, .8)
+}
+
+.navbar ul {
+	float: right;
+	list-style: none
+}
+
+.navbar ul li {
+	display: inline-block
+}
+
+.navbar ul li a {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #515f67;
+	padding: 10px;
+	margin: 5px
+}
+
+.portfolio .container h2>span,
+.services .container h2>span {
+	text-decoration: underline
+}
+
+.navbar ul li a:hover {
+	color: #4BCAFF;
+	border: 1px solid #4BCAFF
+}
+
+.header .slider {
+	text-align: center;
+	color: #fff;
+	height: 500px
+}
+
+.header .slider>div.container {
+	width: 55%;
+	padding-top: 15%
+}
+
+.slider q {
+	font-size: 25px;
+	margin: 0 auto
+}
+
+.slider .container button {
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	background: 0 0;
+	border: 1px solid #4BCAFF;
+	padding: 10px;
+	margin: 10% auto 0;
+	width: 15%
+}
+
+.portfolio .container ul li,
+.relax .container p {
+	display: inline-block
+}
+
+.services,
+.slider .container button:hover {
+	background: #4BCAFF
+}
+
+.services .container>h2 {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1.5em;
+	margin: 0
+}
+
+.services-items .container {
+	width: 90%;
+	color: #fff;
+	overflow: hidden;
+	padding-bottom: 4%
+}
+
+.services-items i {
+	font-size: 45px
+}
+
+.services-items .coffee,
+.services-items .frame,
+.services-items .instant,
+.services-items .serious {
+	float: left;
+	width: 25%
+}
+
+.services-items p {
+	margin-right: 6%
+}
+
+.services-items h3 {
+	margin-top: 2%;
+	margin-bottom: 0
+}
+
+.portfolio {
+	margin-bottom: 4%;
+	background: #FAFAFA
+}
+
+.portfolio .container {
+	background: #FAFAFA
+}
+
+.portfolio .container>h2 {
+	color: #000;
+	text-transform: uppercase;
+	padding: 1.5em;
+	margin: 0;
+	float: left
+}
+
+.portfolio .container ul {
+	float: right;
+	padding: 2em;
+	margin: 0;
+	list-style: none
+}
+
+.portfolio .container ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	border: 1px solid #4BCAFF;
+	padding: 10px;
+	float: right
+}
+
+.aboutme .container h2>span,
+.contactme .container h2>span,
+.relax .container h2>span {
+	text-decoration: underline
+}
+
+.portfolio .container ul li a:hover {
+	color: #fff;
+	border: 1px solid #4BCAFF;
+	background: #4BCAFF
+}
+
+.portfolio .container img {
+	width: 23%;
+	margin: 1%;
+	float: left
+}
+
+.relax {
+	background: #515F67
+}
+
+.relax .container>h2 {
+	color: #fff;
+	text-transform: uppercase;
+	float: left;
+	padding: 1.5em;
+	margin: 0
+}
+
+.relax .container iframe {
+	float: right;
+	margin-bottom: 4%;
+	width: 55%;
+	height: 335px
+}
+
+.relax .container p {
+	margin: 0 0 0 3%;
+	width: 30%;
+	color: #fff;
+	font-size: 25px;
+	text-align: left
+}
+
+.aboutme {
+	padding-bottom: 4%;
+	background: url(../imgs/whois.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+
+.aboutme .container>h2 {
+	color: #fff;
+	text-transform: uppercase;
+	float: left;
+	padding-top: 1.5em;
+	margin: 0
+}
+
+.about-left,
+.about-right {
+	color: #fff;
+	font-size: 16px;
+	text-align: justify;
+	width: 45%
+}
+
+.about-right {
+	float: right
+}
+
+.about-left {
+	float: left
+}
+
+.about-right>i {
+	font-size: 20px;
+	padding: 2%;
+	border: 2px solid #fff
+}
+
+.about-right>i:hover,
+.contactme textarea,
+.contactme-left input {
+	border: 2px solid #4BCAFF
+}
+
+.contactme {
+	padding-bottom: 4%;
+	background: #FAFAFA
+}
+
+.contactme .container>h2 {
+	text-transform: uppercase;
+	float: left;
+	padding-top: 1.5em;
+	margin: 0
+}
+
+.about-left,
+.contactme-right {
+	font-size: 16px;
+	text-align: justify;
+	width: 45%
+}
+
+.contactme-right {
+	float: right;
+	margin-top: 16px;
+	width: 50%
+}
+
+.contactme-left {
+	float: left;
+	margin-top: 16px;
+	width: 50%
+}
+
+.contactme label,
+.contactme-left input {
+	display: block;
+	margin-bottom: 5px
+}
+
+.contactme-left input {
+	padding: 5px;
+	width: 60%
+}
+
+.contactme textarea {
+	width: 95%;
+	height: 200px
+}
+
+.footer {
+	border-top: 1px solid #ccc;
+	background: #515f67;
+	height: 80px
+}
+
+.footer p {
+	color: #fff;
+	padding: 2em;
+	padding-bottom: 0;
+	margin: 0
+}
